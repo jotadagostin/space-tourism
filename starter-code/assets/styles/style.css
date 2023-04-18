@@ -8,5 +8,14 @@
     --dark-blue: #0B0D17;
     --light-blue: #D0D6F9;
     --text-color: #FFFFFF;
-    --main-font: font-family: 'Bellefair', serif;
+    --main-font: 'Bellefair', serif;
+}
+
+.container {
+    background-image:url(../home/background-home-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
 }
