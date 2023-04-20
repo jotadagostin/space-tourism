@@ -1,23 +1,58 @@
 .container_content {
-    color: white;
-    
-    display: flex;
+  color: white;
+  display: flex;
 }
 
 .container_content__text {
-
+  width: 450px;
+  height: 382px;
+  left: 165px;
+  top: 387px;
 }
 
 .container_content__title {
-    
+  height: 34px;
+  margin-left: 60px;
+  margin-top: 50px;
+
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  letter-spacing: 4.725px;
+
+  color: #d0d6f9;
 }
 
 .container_content__titleSpace {
-
+  height: 172px;
+  font-family: "Bellefair";
+  margin-left: 60px;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 172px;
+  color: #ffffff;
 }
 
 .container_content__p {
-
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 60px;
 }
 
-/* falta importar um fonte: barlow condensed regular */
+.container_content__explore {
+  width: 274px;
+  height: 274px;
+  left: 1001px;
+  top: 496px;
+  margin-left: 400px;
+  background-color: white;
+  border-radius: 1px solid white;
+  color: black;
+}
