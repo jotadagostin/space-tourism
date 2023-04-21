@@ -21,6 +21,10 @@
     height: 100vh;
 }
 
+.container_destination {
+    background-image: url(/destination/background-destination-desktop.jpg);
+}
+
 ul {
     list-style: none;
 }
