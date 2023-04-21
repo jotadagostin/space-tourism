@@ -16,7 +16,7 @@
   justify-content: space-between;
   gap: 48px;
   text-transform: uppercase;
-  padding: 38px 65px 38px 65px;
+  padding: 38px 65px 30px 65px;
   margin: 10px 6px 10px 0;
   background-color: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(40.7742px);
@@ -29,7 +29,8 @@ a {
 }
 
 .container_header__item:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
+    
 }
 
 span {
