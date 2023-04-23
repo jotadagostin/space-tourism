@@ -2,3 +2,45 @@
     display: flex;
     justify-content: center;
 }
+
+.container_moon__span {
+    color: gray;
+    font-family: var(--second-font);
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+}
+
+.container_moon__h1 {
+    color: white;
+    font-family: var(--second-font);
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+
+.container_moon__img {
+    width: 445px;
+    height: 445px;
+}
+
+.container_moon__list {
+    color: white;
+    display: flex;
+    gap: 35px;
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+
+.container_moon__item a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 12px;
+}
