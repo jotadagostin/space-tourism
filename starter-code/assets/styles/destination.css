@@ -1,6 +1,8 @@
 .container_moon {
   display: flex;
   justify-content: center;
+  gap: 157px;
+  text-align: center;
 }
 
 .container_moon__span {
@@ -20,6 +22,7 @@
   line-height: 34px;
   letter-spacing: 4.725px;
   text-transform: uppercase;
+  justify-content: center;
 }
 
 .container_moon__img {
@@ -52,6 +55,7 @@
   font-weight: 400;
   font-style: normal;
   line-height: 115px;
+  text-align: start;
 }
 
 .container_moon__p {
@@ -64,6 +68,7 @@
   margin: 20px;
   padding: 20px;
   /* ajustar esta parte.. */
+  text-align: justify;
 
   color: #d0d6f9;
 }
