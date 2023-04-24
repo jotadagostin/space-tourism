@@ -33,14 +33,14 @@
 }
 
 .container_moon__img {
-  width: 380px;
-  height: 380px;
+  width: 350px;
+  height: 350px;
   text-align: right;
 }
 
 .container_moon__content {
   width: 425px;
-  height: 45px;
+  height: 35px;
   margin-bottom: 118px;
   margin-top: 14px;
 }
@@ -56,7 +56,7 @@
   line-height: 19px;
   letter-spacing: 2.7px;
   text-transform: uppercase;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .container_moon__item a:hover {
@@ -90,7 +90,7 @@
 }
 
 .container_moon__retangle {
-  background-color: white;
+  background-color: #383b4b;
   width: 444px;
   height: 1px;
   display: flex;
@@ -103,8 +103,6 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  
-  
 }
 
 .container_details__h2 {
@@ -127,5 +125,4 @@
   font-style: normal;
   line-height: 32px;
   text-transform: uppercase;
-  
 }

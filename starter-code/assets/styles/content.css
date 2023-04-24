@@ -37,7 +37,7 @@
 }
 
 .container_content__p {
-  font-family: "Barlow";
+  font-family: var(--second-font);
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
