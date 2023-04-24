@@ -23,11 +23,26 @@
   letter-spacing: 4.725px;
   text-transform: uppercase;
   justify-content: center;
+  padding-bottom: 45px;
+  margin-top: 26px;
+  margin-right: 120px;
+}
+
+.container_moon__h1 span {
+  margin-right: 28px;
 }
 
 .container_moon__img {
-  width: 445px;
-  height: 445px;
+  width: 380px;
+  height: 380px;
+  text-align: right;
+}
+
+.container_moon__content {
+  width: 425px;
+  height: 45px;
+  margin-bottom: 118px;
+  margin-top: 14px;
 }
 
 .container_moon__list {
@@ -41,10 +56,11 @@
   line-height: 19px;
   letter-spacing: 2.7px;
   text-transform: uppercase;
+  margin-top: 50px;
 }
 
 .container_moon__item a:hover {
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid white;
   padding-bottom: 12px;
 }
 
@@ -56,6 +72,7 @@
   font-style: normal;
   line-height: 115px;
   text-align: start;
+  margin-top: 17px;
 }
 
 .container_moon__p {
@@ -67,8 +84,48 @@
   flex-wrap: wrap;
   margin: 20px;
   padding: 20px;
-  /* ajustar esta parte.. */
   text-align: justify;
 
   color: #d0d6f9;
+}
+
+.container_moon__retangle {
+  background-color: white;
+  width: 444px;
+  height: 1px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.container_moon__details {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  
+  
+}
+
+.container_details__h2 {
+  color: #d0d6f9;
+  font-family: var(--second-font);
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.container_details__h1 {
+  color: white;
+  font-family: var(--second-font);
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 32px;
+  text-transform: uppercase;
+  
 }
