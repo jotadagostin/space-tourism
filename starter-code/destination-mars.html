@@ -1,37 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png" />
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/header.css" />
+    <link rel="stylesheet" href="assets/styles/content.css" />
+    <link rel="stylesheet" href="assets/styles/destination.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <main class="container_destination">
+      <!-- Header and nav code starts here -->
+      <header class="container_header">
+        <nav class="container_header__nav">
+          <img src="/starter-code/assets/shared/logo.svg" alt="" class="logo" />
+          <div class="retangle"></div>
 
-  01 Pick your destination
+          <ul class="container_header__list">
+            <li class="container_header__item">
+              <span>00</span><a href="index.html">Home</a>
+            </li>
+            <li class="container_header__item">
+              <span>01</span
+              ><a href="/starter-code/destination-moon.html">Destination</a>
+            </li>
+            <li class="container_header__item">
+              <span>02</span><a href="">Crew</a>
+            </li>
+            <li class="container_header__item">
+              <span>03</span><a href="">Tecnology</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Header and nav code ends here -->
 
-  Moon
-  Mars
-  Europa
-  Titan
+      <section class="container_moon">
+        <div class="container_moon_title">
+          <h1 class="container_moon__h1">
+            <span class="container_moon__span">01</span>Pick your Destination
+          </h1>
+          <img
+            class="container_moon__img"
+            src="./assets/destination/image-mars.png"
+            alt="picture about the moon" />
+        </div>
 
-  Mars
-
-  Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
-  the tallest planetary mountain in our solar system. It’s two and a half times 
-  the size of Everest!
-
-  Avg. distance
-  225 mil. km
-
-  Est. travel time
-  9 months
-</body>
+        <div class="container_moon__content">
+          <ul class="container_moon__list">
+            <li class="container_moon__item"><a href="/starter-code/destination-moon.html">Moon</a></li>
+            <li class="container_moon__item"><a href="/starter-code/destination-mars.html">Mars</a></li>
+            <li class="container_moon__item"><a href="/starter-code/destination-europa.html">Europa</a></li>
+            <li class="container_moon__item"><a href="/starter-code/destination-titan.html">Titan</a></li>
+          </ul>
+          <h1 class="container_moon__title">MARS</h1>
+          <p class="container_moon__p">
+            Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!
+          </p>
+          <div class="container_moon__retangle"></div>
+          
+          <div class="container_moon__details">
+            <div class="container_details__distance">
+              <h2 class="container_details__h2">Avg Distance</h2>
+              <h1 class="container_details__h1">225 MIL. km</h1>
+            </div>
+            <div class="container_details__time">
+              <h2 class="container_details__h2">Est. Travel Time</h2>
+              <h1 class="container_details__h1">9 months</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
