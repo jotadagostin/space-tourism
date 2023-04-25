@@ -1,0 +1,54 @@
+.container_crew__infos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container_crew__info {
+}
+
+.container_crew__h1 {
+  color: white;
+  font-family: var(--second-font);
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  justify-content: center;
+  padding-bottom: 45px;
+  margin-top: 26px;
+  margin-right: 120px;
+}
+
+.container_crew__span {
+  color: gray;
+  font-family: var(--second-font);
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+}
+
+.container_crew__person {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  
+}
+
+.container_crew__name {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
