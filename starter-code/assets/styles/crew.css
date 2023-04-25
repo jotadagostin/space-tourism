@@ -40,15 +40,45 @@
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
-  
 }
 
 .container_crew__name {
-    font-family: var(--main-font);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.container_crew__p {
+    font-family: var(--second-font);
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
-    text-transform: uppercase;
-    color: #ffffff;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
 }
+
+.container_crew__carousel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.container_crew__carouselButton {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.17;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.container_crew__img {
+    
+}
+
+
