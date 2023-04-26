@@ -73,11 +73,16 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  border-style: none;
 }
 
 .container_crew__carouselButton:hover {
   background: rgb(211, 211, 211);
 }
 
-.container_crew__img {
+.container_crew__pilot {
+  
+width: 490px;
+height: 490px;
+
 }
