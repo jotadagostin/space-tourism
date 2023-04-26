@@ -53,12 +53,12 @@
 }
 
 .container_crew__p {
-    font-family: var(--second-font);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    color: #D0D6F9;
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
 }
 
 .container_crew__carousel {
@@ -69,16 +69,15 @@
 }
 
 .container_crew__carouselButton {
-  background: #ffffff;
-  mix-blend-mode: normal;
-  opacity: 0.17;
-  width: 15px;
-  height: 15px;
+  background: gray;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
 }
 
-.container_crew__img {
-    
+.container_crew__carouselButton:hover {
+  background: rgb(211, 211, 211);
 }
 
-
+.container_crew__img {
+}
