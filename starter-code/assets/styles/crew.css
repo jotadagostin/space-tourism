@@ -40,6 +40,8 @@
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
+  text-align: center;
+  margin-right: 170px;
 }
 
 .container_crew__name {
@@ -50,6 +52,7 @@
   line-height: 64px;
   text-transform: uppercase;
   color: #ffffff;
+  margin-left: 96px;
 }
 
 .container_crew__p {
@@ -59,19 +62,24 @@
   font-size: 18px;
   line-height: 32px;
   color: #d0d6f9;
+  text-align: justify;
+  padding: 27px 95px 0px 90px;
+  width: 575px;
+  margin-left: 10px;
+  margin-bottom: 120px;
 }
 
 .container_crew__carousel {
   display: flex;
   justify-content: center;
-  text-align: center;
-  gap: 10px;
+  margin-left: 14px;
+  gap: 24px;
 }
 
 .container_crew__carouselButton {
   background: gray;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border-style: none;
 }
@@ -81,8 +89,6 @@
 }
 
 .container_crew__pilot {
-  
-width: 490px;
-height: 490px;
-
+  width: 490px;
+  height: 490px;
 }
