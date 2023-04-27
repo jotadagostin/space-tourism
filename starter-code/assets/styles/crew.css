@@ -90,5 +90,8 @@
 
 .container_crew__pilot {
   width: 490px;
-  height: 490px;
+  height: 495px;
+  padding-left: 80px;
+  padding-top: 3px;
+  
 }
