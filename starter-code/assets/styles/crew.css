@@ -44,6 +44,7 @@
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
+  margin-top: 15px;
 
 }
 
@@ -98,5 +99,5 @@
 
 
 .container_crew__img {
-  background-color: green;
+ 
 }
