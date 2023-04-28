@@ -5,7 +5,12 @@
 }
 
 .container_crew__info {
+ display: block;
+ justify-content: left;
+ text-align: left;
 }
+
+
 
 .container_crew__h1 {
   color: white;
@@ -19,7 +24,6 @@
   justify-content: center;
   padding-bottom: 45px;
   margin-top: 26px;
-  margin-right: 120px;
 }
 
 .container_crew__span {
@@ -40,8 +44,7 @@
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
-  text-align: center;
-  margin-right: 170px;
+
 }
 
 .container_crew__name {
@@ -52,7 +55,6 @@
   line-height: 64px;
   text-transform: uppercase;
   color: #ffffff;
-  margin-left: 96px;
 }
 
 .container_crew__p {
@@ -62,17 +64,15 @@
   font-size: 18px;
   line-height: 32px;
   color: #d0d6f9;
-  text-align: justify;
-  padding: 27px 95px 0px 90px;
+  text-align: left;
+  padding: 27px 0 0px 0;
   width: 575px;
-  margin-left: 10px;
   margin-bottom: 120px;
 }
 
 .container_crew__carousel {
   display: flex;
   justify-content: left;
-  margin-left: 100px;
   gap: 24px;
 }
 
@@ -91,6 +91,12 @@
 .container_crew__pilot {
   width: 470px;
   height: 475px;
+  
   padding-left: 80px;
   margin-top: 18px;
+}
+
+
+.container_crew__img {
+  background-color: green;
 }
