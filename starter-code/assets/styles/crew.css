@@ -68,13 +68,16 @@
   text-align: left;
   padding: 27px 0 0px 0;
   width: 575px;
-  margin-bottom: 120px;
 }
 
 .container_crew__carousel {
   display: flex;
   justify-content: left;
+  align-items: end;
+  position: fixed;
   gap: 24px;
+  width: 200px;
+  height: 130px;
 }
 
 .container_crew__carouselButton {
