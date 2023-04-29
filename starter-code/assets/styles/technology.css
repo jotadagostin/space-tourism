@@ -1,0 +1,59 @@
+.container_vehicles__infos {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.container_list__item {
+  color: rgb(253, 250, 250);
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  
+}
+.container_list__item:hover {
+    background: white;
+}
+
+
+
+.container_vehicles__h2 {
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #d0d6f9;
+  text-transform: uppercase;
+}
+
+.container_vehicles__h1 {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.container_vehicles__p {
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+}
