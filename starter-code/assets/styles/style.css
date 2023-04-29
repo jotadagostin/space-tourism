@@ -21,6 +21,8 @@
     height: 100vh;
 }
 
+
+
 .container_destination {
     background-image:url(../destination/background-destination-desktop.jpg);
     background-size: cover;
@@ -55,3 +57,4 @@
 ul {
     list-style: none;
 }
+
