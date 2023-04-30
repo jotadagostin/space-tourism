@@ -59,6 +59,7 @@ a:hover {
   letter-spacing: 2.7px;
   color: #d0d6f9;
   text-transform: uppercase;
+  margin-bottom: 11px;
 }
 
 .container_vehicles__h1 {
@@ -69,6 +70,7 @@ a:hover {
   line-height: 64px;
   color: #ffffff;
   text-transform: uppercase;
+  margin-bottom: 17px;
 }
 
 .container_vehicles__p {
