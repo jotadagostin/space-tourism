@@ -85,7 +85,6 @@
 .container_vehicles__picture {
   width: 552px;
   height: 858px;
- 
 }
 
 .container_crew__img {
@@ -94,7 +93,17 @@
   height: 497px;
   padding-top: 50px;
   padding-bottom: 40px;
-  
+}
 
+/* Desktop */
+@media screen and (min-width: 1400px) {
   
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 414px) {
 }

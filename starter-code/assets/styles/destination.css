@@ -126,3 +126,16 @@
   line-height: 32px;
   text-transform: uppercase;
 }
+
+/* Desktop */
+@media screen and (min-width: 1400px) {
+  
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 414px) {
+}
