@@ -28,12 +28,13 @@
   <body>
     <main class="container">
       <!-- Header and nav code starts here -->
-      <header class="container_header">
-        <nav class="container_header__nav">
+      <header class="container_header" >
+        <img src="/starter-code/assets/shared/icon-hamburger.svg" alt="burguer icon" id="burguer" onclick="clickMenu()">
+        <nav class="container_header__nav" id="menu">
           <img src="/starter-code/assets/shared/logo.svg" alt="" class="logo" />
           <div class="retangle"></div>
 
-          <ul class="container_header__list">
+          <ul class="container_header__list" >
             <li class="container_header__item">
               <span>00</span><a href="">Home</a>
             </li>
@@ -70,5 +71,15 @@
         <!-- content's code ends here -->
       </section>
     </main>
+
+    <script>
+      function clickMenu() {
+          if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+          } else {
+            menu.style.display = 'block'
+          }
+      }
+    </script>
   </body>
 </html>
