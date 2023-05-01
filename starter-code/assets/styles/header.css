@@ -1,5 +1,6 @@
 img#burguer {
   display: none;
+  
 }
 
 .logo_mobile {
@@ -130,6 +131,14 @@ span {
     cursor: pointer;
     margin-top: 33px;
     margin-left: 24px;
+    
+    
+  }
+
+  img#burguer:hover {
+    background-color: rgba(255, 255, 255, 0.109);
+    backdrop-filter: blur(40.7742px);
+    
   }
 
   .logo {
@@ -143,6 +152,7 @@ span {
     position: fixed;
     width: 40px;
     height: 40px;
+    
     
   }
 
