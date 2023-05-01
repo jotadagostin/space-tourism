@@ -1,6 +1,5 @@
 img#burguer {
   display: none;
-  
 }
 
 .logo_mobile {
@@ -131,14 +130,11 @@ span {
     cursor: pointer;
     margin-top: 33px;
     margin-left: 24px;
-    
-    
   }
 
   img#burguer:hover {
     background-color: rgba(255, 255, 255, 0.109);
     backdrop-filter: blur(40.7742px);
-    
   }
 
   .logo {
@@ -152,19 +148,12 @@ span {
     position: fixed;
     width: 40px;
     height: 40px;
-    
-    
   }
 
-  
-
   span {
-    display: inline-flex;
-    margin-right: 35px;
-    position: relative;
-    
-    
-    
+    display: inline;
+    justify-content: space-between;
+    padding-right: 11px;
   }
 
   .container_header__list {
@@ -193,9 +182,7 @@ span {
     margin-bottom: 52px;
     margin-left: 10px;
     margin-top: 6px;
-    
-    
-  
+    position: static;
   }
 
   .container_header__item:hover {
@@ -203,9 +190,6 @@ span {
     border-right: 4px solid white;
     padding-right: 205px;
     width: 4px;
-    height: 19px;
-    
+    height: 1px;
   }
-
-  
 }

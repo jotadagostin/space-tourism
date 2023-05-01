@@ -86,7 +86,8 @@
 .container_content__circle:hover {
   background-color: #fff;
   box-shadow: 0 0 0 55px rgb(92, 91, 91);
-  transition: all 1s ease;
+  transition: all 1s ease-in-out ;
+
   
   height: 250px;
   width: 250px;
