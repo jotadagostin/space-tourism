@@ -79,21 +79,37 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 37px;
-  align-items: center; 
+  align-items: center;
 }
-
 
 .container_content__circle:hover {
   background-color: #fff;
   box-shadow: 0 0 0 55px rgb(92, 91, 91);
-  transition: all 1s ease-in-out ;
+  transition: all 1s ease-in-out;
 
-  
   height: 250px;
   width: 250px;
-  Opacity: 90.36%;
+  opacity: 90.36%;
 }
 
-.container_content__circle:before {
-  
+/* Desktop */
+@media screen and (min-width: 1400px) {
+  .container_content__text {
+    width: 800px;
+    height: 500px;
+    text-align: left;
+    margin-top: 290px;
+  }
+
+  .container_content__circle {
+    margin-top: 340px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 414px) {
 }
