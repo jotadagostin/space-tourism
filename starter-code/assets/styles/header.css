@@ -24,8 +24,6 @@
   backdrop-filter: blur(40.7742px);
   height: 96px;
   padding-left: 150px;
-  
-  
 }
 
 a {
@@ -35,10 +33,8 @@ a {
 }
 
 .container_header__item:hover {
-    border-bottom: 4px solid white;
-    padding-bottom: 52px;
-  
-    
+  border-bottom: 4px solid white;
+  padding-bottom: 52px;
 }
 
 span {
@@ -66,4 +62,34 @@ span {
   z-index: 1;
   color: white;
   background-color: white;
+}
+
+/* Desktop */
+@media screen and (min-width: 1400px) {
+  .container_header {
+    display: flex;
+    justify-content: end;
+  }
+
+  .logo {
+    display: flex;
+    margin-left: -500px;
+  }
+
+  .retangle {
+    width: 973px;
+    height: 1px;
+  }
+
+  
+}
+
+/* Tablet */
+@media screen and (max-width: 720px) {
+  
+  
+}
+
+/* Mobile */
+@media screen and (max-width: 370px) {
 }
