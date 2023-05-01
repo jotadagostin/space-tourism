@@ -80,16 +80,37 @@ span {
     width: 973px;
     height: 1px;
   }
-
-  
 }
 
 /* Tablet */
-@media screen and (max-width: 720px) {
-  
-  
+@media screen and (max-width: 768px) {
+  span {
+    display: none;
+  }
+
+  .container_header {
+    display: flex;
+  }
+  .container_header__list {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    gap: 28px;
+    text-transform: uppercase;
+    padding: 38px 135px 38px 65px;
+    margin: 0 0 10px 0;
+    width: 490px;
+    height: 96px;
+    padding-left: 150px;
+  }
+
+  .retangle {
+    display: none;
+  }
 }
 
 /* Mobile */
 @media screen and (max-width: 370px) {
+
+  
 }
