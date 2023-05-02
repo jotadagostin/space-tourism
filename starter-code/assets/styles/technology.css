@@ -97,7 +97,32 @@
 
 /* Desktop */
 @media screen and (min-width: 1400px) {
-  
+  .container_crew__h1 {
+    width: 700px;
+    margin-bottom: 137px;
+  }
+
+  .container_vehicles__buttons {
+    margin-top: 300px;
+    margin-right: 80px;
+  }
+
+  .container_vehicles__info {
+    margin-top: 230px;
+  }
+
+  .container_vehicles__picture {
+    width: 1200px;
+    display: flex;
+    justify-content: right;
+  }
+
+  .container_crew__img {
+    width: 615px;
+    height: 727px;
+    margin-top: 82px;
+    
+  }
 }
 
 /* Tablet */
