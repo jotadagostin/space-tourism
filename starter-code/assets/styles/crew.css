@@ -93,9 +93,8 @@
 }
 
 .container_crew__pilot {
-  width: 470px;
-  height: 475px;
-
+  width: 970px;
+  height: 700px;
   padding-left: 80px;
   margin-top: 48px;
 }
@@ -106,7 +105,42 @@
 /* Desktop */
 @media screen and (min-width: 1400px) {
   .container_crew__info {
-    background-color: green;
+    margin-top: 70px;
+  }
+
+  .container_crew__h1 {
+    margin-bottom: 154px;
+  }
+
+  .container_crew__person {
+    margin-bottom: 15px;
+  }
+
+  .container_crew__name {
+    margin-bottom: 27px;
+  }
+
+  .container_crew__carousel {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    position: fixed;
+    gap: 24px;
+    width: 1560px;
+    height: 830px;
+    position: fixed;
+    padding-bottom: 30px;
+  }
+
+  .container_crew__img {
+    width: 968.07px;
+    height: 912px;
+  }
+
+  .container_crew__pilot {
+    width: 668.07px;
+    height: 800px;
+    align-self: flex-end;
   }
 }
 
