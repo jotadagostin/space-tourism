@@ -108,6 +108,28 @@
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+  .container_content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container_content__text {
+    display: block;
+    width: 600px;
+    text-align: center;
+    margin-top: 106px;
+  }
+
+  .container_content__titleSpace {
+    margin-top: 26px;
+    margin-bottom: 24px;
+  }
+
+  .container_content__circle {
+    margin: 69px 0 0 260px;
+  }
 }
 
 /* Mobile */
