@@ -149,6 +149,56 @@
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+  .container_crew__infos {
+    display: block;
+    
+  }
+
+  .container_crew__h1  {
+    display: flex;
+    justify-content: left;
+    margin-left: 38px;
+  }
+
+  
+
+  .container_crew__person {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  .container_crew__name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .container_crew__p {
+    margin-left: 25px;
+    margin-bottom: 15px;
+    width: 700px;
+    padding: 10px 90px 10px 90px;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container_crew__carousel {
+    width: 700px;
+    margin-left: 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .container_crew__img {
+    width: 700px;
+    margin-left: 25px;
+    margin-top: 61px;
+  }
 }
 
 /* Mobile */
