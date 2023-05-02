@@ -93,13 +93,16 @@
 }
 
 .container_crew__pilot {
-  width: 970px;
-  height: 700px;
-  padding-left: 80px;
-  margin-top: 48px;
+  width: 468.07px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 10px;
 }
 
 .container_crew__img {
+  width: 568.07px;
+  height: 712px;
+  text-align: center;
 }
 
 /* Desktop */
