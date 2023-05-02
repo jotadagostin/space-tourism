@@ -152,6 +152,26 @@
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+  .container_moon {
+    display: block;
+  }
+
+  .container_moon__h1 {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .container_moon__span {
+    display: flex;
+    justify-content: left;
+    width: 150px;
+  }
+
+  .container_moon__content {
+    
+  }
 }
 
 /* Mobile */
