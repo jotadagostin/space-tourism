@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-around;
   text-align: left;
+  
 }
 
 .container_vehicles__info {
@@ -121,12 +122,46 @@
     width: 615px;
     height: 727px;
     margin-top: 82px;
-    
   }
 }
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+  .container_crew__h1 {
+    display: flex;
+    width: 400px;
+    
+  }
+
+  .container_vehicles__infos {
+    display: inline-block;
+  }
+
+  .container_vehicles__buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 600px;
+    height: 100px;
+
+    
+  }
+
+  .container_list__items {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+
+  }
+
+  .container_list__item {
+    padding: 16px;
+    margin-left: 16px;
+  }
+
+  
+
+  
 }
 
 /* Mobile */
