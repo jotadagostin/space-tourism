@@ -5,12 +5,10 @@
 }
 
 .container_crew__info {
- display: block;
- justify-content: left;
- text-align: left;
+  display: block;
+  justify-content: left;
+  text-align: left;
 }
-
-
 
 .container_crew__h1 {
   color: white;
@@ -45,7 +43,6 @@
   mix-blend-mode: normal;
   opacity: 0.5;
   margin-top: 15px;
-
 }
 
 .container_crew__name {
@@ -76,12 +73,13 @@
   align-items: end;
   position: fixed;
   gap: 24px;
-  width: 200px;
-  height: 130px;
+  width: 900px;
+  height: 530px;
+  position: fixed;
+  padding-bottom: 30px;
 }
 
 .container_crew__carouselButton {
-  
   background: gray;
   width: 15px;
   height: 15px;
@@ -91,24 +89,25 @@
 
 .container_crew__carouselButton:hover {
   background: rgb(211, 211, 211);
+  cursor: pointer;
 }
 
 .container_crew__pilot {
   width: 470px;
   height: 475px;
-  
+
   padding-left: 80px;
   margin-top: 48px;
 }
 
-
 .container_crew__img {
- 
 }
 
 /* Desktop */
 @media screen and (min-width: 1400px) {
-  
+  .container_crew__info {
+    background-color: green;
+  }
 }
 
 /* Tablet */
