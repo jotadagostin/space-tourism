@@ -31,71 +31,98 @@
   <body>
     <main class="container_technology">
       <!-- Header and nav code starts here -->
-      <header class="container_header" >
-        <img src="/starter-code/assets/shared/icon-hamburger.svg" alt="burguer icon" id="burguer" onclick="clickMenu()">
-        
+      <header class="container_header">
+        <img
+          src="/starter-code/assets/shared/icon-hamburger.svg"
+          alt="burguer icon"
+          id="burguer"
+          onclick="clickMenu()" />
+
         <nav class="container_header__nav" id="menu">
           <img src="/starter-code/assets/shared/logo.svg" alt="" class="logo" />
           <div class="retangle"></div>
 
           <ul class="container_header__list" id="burguer">
             <li class="container_header__item">
-              <a href="/starter-code/index.html"><span >00</span>Home</a>
+              <a href="/starter-code/index.html"><span>00</span>Home</a>
             </li>
             <li class="container_header__item">
-              <a href="/starter-code/destination-moon.html"><span>01</span>Destination</a>
+              <a href="/starter-code/destination-moon.html"
+                ><span>01</span>Destination</a
+              >
             </li>
             <li class="container_header__item">
-              <a href="/starter-code/crew-commander.html"><span>02</span>Crew</a>
+              <a href="/starter-code/crew-commander.html"
+                ><span>02</span>Crew</a
+              >
             </li>
             <li class="container_header__item">
               <a href="technology-vehicle.html"><span>03</span>Tecnology</a>
             </li>
           </ul>
         </nav>
-        <img src="/starter-code/assets/shared/logo.svg" alt="" class="logo_mobile">
+        <img
+          src="/starter-code/assets/shared/logo.svg"
+          alt=""
+          class="logo_mobile" />
       </header>
       <!-- Header and nav code ends here -->
 
       <!-- Section code starts here -->
       <section class="container_technology">
-      <!-- <div class="container_vehicles__vehicle">
-        <h1 class="container_crew__h1">
-          <span class="container_crew__span">03</span>Space Launch 101
-        </h1>
-      </div> -->
-      <div class="container_vehicles__infos">
-        <div class="container_vehicles__vehicle">
-          <h1 class="container_crew__h1">
-            <span class="container_crew__span">03</span>Space Launch 101
-          </h1>
+        <div class="container_vehicles__infos">
+          <div class="container_vehicles__vehicle">
+            <h1 class="container_crew__h1">
+              <span class="container_crew__span">03</span>Space Launch 101
+            </h1>
+          </div>
+          <div class="container_img__landscape">
+            <img
+              src="/starter-code/assets/technology/image-space-capsule-landscape.jpg"
+              alt="a picture about the rocket beeing launched"
+              class="container_crew__img-landscape" />
+          </div>
+          <div class="container_vehicles__buttons">
+            <ul class="container_list__items">
+              <li class="container_list__item">
+                <a href="/starter-code/technology-vehicle.html" class="container_list__a">1</a>
+              </li>
+              <li class="container_list__item">
+                <a href="/starter-code/technology-spaceport.html" class="container_list__a">2</a>
+              </li>
+              <li class="container_list__item">
+                <a href="/starter-code/technology-capsule.html" class="container_list__a">3</a>
+              </li>
+            </ul>
+          </div>
+          <div class="container_vehicles__info">
+            <h2 class="container_vehicles__h2">The technology ...</h2>
+            <h1 class="container_vehicles__h1">Space Capsule</h1>
+            <p class="container_vehicles__p">
+              A space capsule is an often-crewed spacecraft that uses a
+              blunt-body reentry capsule to reenter the Earth's atmosphere
+              without wings. Our capsule is where you'll spend your time during
+              the flight. It includes a space gym, cinema, and plenty of other
+              activities to keep you entertained.
+            </p>
+          </div>
+          <div class="container_vehicles__picture">
+            <img
+              src="/starter-code/assets/technology/image-space-capsule-portrait.jpg"
+              alt="a picture about the rocket beeing launched"
+              class="container_crew__img" />
+          </div>
         </div>
-        <div class="container_vehicles__buttons">
-          <ul class="container_list__items">
-            <li class="container_list__item"><a href="/starter-code/technology-vehicle.html">1</a></li>
-            <li class="container_list__item"><a href="/starter-code/technology-spaceport.html">2</a></li>
-            <li class="container_list__item"><a href="/starter-code/technology-capsule.html">3</a></li>
-          </ul>
-        </div>
-        <div class="container_vehicles__info"> 
-          <h2 class="container_vehicles__h2">The technology ...</h2>
-          <h1 class="container_vehicles__h1">Space Capsule</h1>
-          <p class="container_vehicles__p">A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
-        </div>
-        <div class="container_vehicles__picture">
-          <img src="/starter-code/assets/technology/image-space-capsule-portrait.jpg" alt="a picture about the rocket beeing launched" class="container_crew__img">
-        </div>
-      </div>
       </section>
       <!-- Section code ends here -->
     </main>
     <script>
       function clickMenu() {
-          if (menu.style.display == 'block') {
-            menu.style.display = 'none'
-          } else {
-            menu.style.display = 'block'
-          }
+        if (menu.style.display == "block") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "block";
+        }
       }
     </script>
   </body>

@@ -11,7 +11,6 @@
   display: flex;
   justify-content: space-around;
   text-align: left;
-  
 }
 
 .container_vehicles__info {
@@ -96,6 +95,10 @@
   padding-bottom: 40px;
 }
 
+.container_crew__img-landscape {
+  display: none;
+}
+
 /* Desktop */
 @media screen and (min-width: 1400px) {
   .container_crew__h1 {
@@ -123,6 +126,8 @@
     height: 727px;
     margin-top: 82px;
   }
+
+  
 }
 
 /* Tablet */
@@ -130,7 +135,6 @@
   .container_crew__h1 {
     display: flex;
     width: 400px;
-    
   }
 
   .container_vehicles__infos {
@@ -143,15 +147,13 @@
     padding: 10px;
     width: 600px;
     height: 100px;
-
-    
   }
 
   .container_list__items {
     display: flex;
     justify-content: left;
     padding: 5px;
-
+    margin-top: -106px;
   }
 
   .container_list__item {
@@ -159,9 +161,24 @@
     margin-left: 16px;
   }
 
-  
+  .container_vehicles__info {
+    margin-left: 40px;
+    margin-top: -120px;
+    width: 700px;
+    display: block;
+    text-align: center;
+  }
 
   
+  .container_crew__img {
+    display: none;
+  }
+  
+  
+  .container_crew__img-landscape {
+    display: block;
+    margin-top: 150px;
+  }
 }
 
 /* Mobile */
