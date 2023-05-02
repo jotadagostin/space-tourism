@@ -129,7 +129,25 @@
 
 /* Desktop */
 @media screen and (min-width: 1400px) {
-  
+  .container_moon_title {
+    margin-top: 50px;
+    width: 750px;
+    height: 500px;
+  }
+
+  .container_moon__h1 {
+    text-align: left;
+  }
+
+  .container_moon__img {
+    width: 450px;
+    height: 410px;
+    margin-top: 50px;
+  }
+
+  .container_moon__content {
+    margin-top: 140px;
+  }
 }
 
 /* Tablet */
