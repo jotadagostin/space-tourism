@@ -203,4 +203,13 @@
 
 /* Mobile */
 @media screen and (max-width: 414px) {
+  .container_crew__span {
+    display: none;
+  }
+
+  .container_crew__h1 {
+    background-color: green;
+    width: 340px;
+    text-align: center;
+  }
 }
