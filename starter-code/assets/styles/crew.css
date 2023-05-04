@@ -151,16 +151,13 @@
 @media screen and (max-width: 768px) {
   .container_crew__infos {
     display: block;
-    
   }
 
-  .container_crew__h1  {
+  .container_crew__h1 {
     display: flex;
     justify-content: left;
     margin-left: 38px;
   }
-
-  
 
   .container_crew__person {
     display: flex;
@@ -203,10 +200,50 @@
 
 /* Mobile */
 @media screen and (max-width: 414px) {
-  .container_crew__info {
+  .container_crew__infos {
+    display: none;
+    /* flex-direction: column; */
+  }
+
+  .container_crew__infos-mobile {
     display: flex;
     flex-direction: column;
   }
 
+  .container_crew__img {
+    display: flex;
+    flex-direction: column;
+    width: 277.12px;
+    height: 422px;
+    margin-top: -32px;
+    background-color: gray;
+  }
+  .container_crew__pilot {
+    background-color: peru;
+    width: 177.12px;
+    height: 202px;
+    justify-self: center;
+  }
+
+  .container_crew__retangle {
+    background-color: rgb(70, 70, 202);
+    width: 150px;
+    height: 150px;
+  }
+
+  .container_crew__carousel {
+    background-color: green;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    top: 500px;
+    left: 10px;
+  }
   
+  .container_crew__info-mobile {
+
+  }
+
 }
