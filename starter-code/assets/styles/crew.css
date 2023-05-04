@@ -205,45 +205,54 @@
     /* flex-direction: column; */
   }
 
+  .container_crew__span {
+    display: none;
+  }
+
+  .container_crew__h1 {
+    width: 340px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
   .container_crew__infos-mobile {
     display: flex;
     flex-direction: column;
   }
 
   .container_crew__img {
-    display: flex;
-    flex-direction: column;
-    width: 277.12px;
-    height: 422px;
+    display: block;
+    width: 367.12px;
+    height: 300px;
     margin-top: -32px;
-    background-color: gray;
   }
   .container_crew__pilot {
-    background-color: peru;
     width: 177.12px;
-    height: 202px;
-    justify-self: center;
+    height: 306px;
+    text-align: center;
   }
 
   .container_crew__retangle {
-    background-color: rgb(70, 70, 202);
-    width: 150px;
-    height: 150px;
+    width: 327px;
+    height: 5px;
+    display: flex;
+    z-index: 1;
+    margin-top: -6px;
   }
 
   .container_crew__carousel {
-    background-color: green;
-    width: 400px;
+    width: 360px;
     height: 50px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: end;
-    top: 500px;
-    left: 10px;
+    top: 450px;
   }
-  
+
   .container_crew__info-mobile {
-
+    width: 327px;
+    height: 212px;
   }
-
 }
