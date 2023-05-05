@@ -183,4 +183,20 @@
 
 /* Mobile */
 @media screen and (max-width: 414px) {
+  .container_vehicles__infos {
+    width: 370px;
+    height: 100px;
+    margin-left: 10px;
+    justify-self: end;
+    
+  }
+
+  .container_crew__h1 {
+    width: 330px;
+    height: 100px;
+  }
+
+  .container_crew__img {
+    
+  }
 }
