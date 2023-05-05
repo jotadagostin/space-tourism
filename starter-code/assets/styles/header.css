@@ -141,11 +141,17 @@ span {
     display: none;
   }
 
+  .container_header__logo-mobile {
+    display: flex;
+    justify-content: end;
+    width: 340px;
+    height: 50px;
+    padding-top: 3px;
+    margin-top: 20px;
+  }
+
   .logo_mobile {
     display: flex;
-    margin-left: 350px;
-    margin-top: 24px;
-    position: fixed;
     width: 40px;
     height: 40px;
   }
