@@ -154,6 +154,7 @@ span {
     display: flex;
     width: 40px;
     height: 40px;
+    background-color: green;
   }
 
   span {
@@ -176,9 +177,9 @@ span {
     text-transform: uppercase;
     padding: 38px 85px 38px 65px;
     background-color: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(40.7742px);
+    backdrop-filter: blur(96.7742px);
     width: 284px;
-    height: 477px;
+    height: 377px;
     text-align: right;
   }
 
