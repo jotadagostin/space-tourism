@@ -1,55 +1,84 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --dark-blue: #0B0D17;
-    --light-blue: #D0D6F9;
-    --text-color: #FFFFFF;
-    --main-font: 'Bellefair';
-    --second-font: 'Barlow Condensed';
+  --dark-blue: #0b0d17;
+  --light-blue: #d0d6f9;
+  --text-color: #ffffff;
+  --main-font: "Bellefair";
+  --second-font: "Barlow Condensed";
 }
 
 .container {
-    background-image:url(../home/background-home-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-
+  background-image: url(../home/background-home-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
-
-
 .container_destination {
-    background-image:url(../destination/background-destination-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    
+  background-image: url(../destination/background-destination-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .container_crew {
-    background-image:url(../crew/background-crew-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-
-    
+  background-image: url(../crew/background-crew-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .container_technology {
-    background-image: url(../technology/background-technology-desktop.jpg);
+  background-image: url(../technology/background-technology-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    background-image: url(../home/background-home-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 395px;
+    height: 900px;
+    overflow: hidden;
+  }
+
+  .container_destination {
+    background-image: url(../destination/background-destination-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 395px;
+    height: 1060px;
+    overflow: hidden;
+  }
+
+  .container_crew {
+    background-image: url(../crew/background-crew-desktop.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,8 +86,3 @@
     height: 100vh;
     overflow: hidden;
 }
-
-ul {
-    list-style: none;
-}
-
